@@ -19,7 +19,7 @@ describe('Card', () => {
     expect(() => {
       renderer.create(
         <Theme.Provider>
-          <Card error="blowitup" />
+          <Card margin="space10" />
         </Theme.Provider>
       );
     }).toThrow();

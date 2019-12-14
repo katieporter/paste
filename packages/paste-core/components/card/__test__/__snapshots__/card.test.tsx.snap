@@ -30,11 +30,11 @@ exports[`Card it should render CardFooter 1`] = `
 <div
   className="emotion-1"
 >
-  <article
+  <footer
     className="emotion-0"
   >
     Just | footer | things
-  </article>
+  </footer>
 </div>
 `;
 
@@ -133,8 +133,8 @@ exports[`Card it should render default values unless overridden by the component
   border-style: solid;
   border-radius: 4px;
   padding: 1.25rem;
-  background-color: #ffffff;
   padding-bottom: 4.75rem;
+  background-color: #ffffff;
 }
 
 <div
